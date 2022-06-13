@@ -1,0 +1,30 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.card-img img {
+    object-fit: contain;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card {
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.text-body h2, p {
+    text-align: center;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
